@@ -9,7 +9,7 @@ import { allMessages } from './messages'
 // }
 
 // 🐨 Accept `scrollableRef` as a prop here
-// 🦺 it's type should be React.RefObject<ScrollableImperativeAPI | null>
+// 🦺 Its type should be React.RefObject<ScrollableImperativeAPI | null>
 function Scrollable({ children }: { children: React.ReactNode }) {
 	const containerRef = useRef<HTMLDivElement>(null)
 
